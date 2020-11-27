@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Poppins Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>WhatsApp Button</title>
+</head>
+    <body>
+
+        <div id="WhatsBTN"></div>
+    
+            <script>
+                $(function() {
+                    $('#WhatsBTN').floatingWhatsApp({
+                    phone: '+5551992500741', //WhatsApp numero, formato internacional
+                    headerTitle: 'Fale conosco através do WhatsApp!', //Popup Titulo
+                    popupMessage: 'Olá em que posso ajudar?', //Popup Mensagem
+                    showPopup: true, //Desabilitar pop up
+                    buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+                    //headerColor: 'crimson', //Custom header color
+                    //backgroundColor: 'crimson', //Custom background button color
+                    position: "right"    
+                    });
+                });
+            </script>
+
+        <script type="text/javascript" src="js/whats.js"></script>
+    </body>
+</html>
