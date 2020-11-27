@@ -3,4 +3,55 @@ body {
     font-weight: 300;
     margin: 0px;
     padding: 0px;
+    background:rgb(18, 18, 20);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(19deg, #101010, transparent);
+    border-bottom: solid 1px #fff3;
+    font-size: 12px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    color:#48d366;
+}
+
+
+/* WhatsApp Styles */ 
+
+.floating-wpp-head span {
+    padding: 15px !important;
+    font-size: 15px !important;
+}
+
+.floating-wpp .floating-wpp-popup.active .floating-wpp-message {
+    opacity: 1;
+    transition-delay: .2s;
+    margin: 17px 0px 17px 0px;
+}
+
+.floating-wpp .floating-wpp-input-message textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+}
+
+.floating-wpp .floating-wpp-popup.active .floating-wpp-message {
+    opacity: 1;
+    transition-delay: .2s;
+    margin: 17px 0px 17px 0px;
+    font-weight: 400;
 }
